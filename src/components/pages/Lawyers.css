@@ -1,0 +1,70 @@
+.containerL{
+    background: url('../../../public/mariest-lpUgGPb8E1I-unsplash.jpg') center center/cover no-repeat;
+    position: relative;
+    min-height: 100vh;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../../../public/mariest-lpUgGPb8E1I-unsplash.jpg') center center/cover no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    width: 100%;
+    margin: 0px;
+
+}
+.containerL h1{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.containerL h1::after{
+    content: '';
+    background: #fff;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sub-containerL{
+    max-width: 1200px;
+    margin: auto;
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teamL{
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4;
+    box-sizing: border-box;
+}
+.nameL{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.titleL{
+    font-style: italic;
+}
+.aboutL{
+    margin: 20px 0;
+    font-weight: lighter;
+}
+
+
+@media screen and (max-width: 600px){
+    .teamL{
+        max-width: 100%;
+    }
+}
